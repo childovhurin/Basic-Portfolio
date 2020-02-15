@@ -1,60 +1,66 @@
 
 body {
-    background-image: url("light_grey.png");
+    background-image: url("../images/light_grey.png");
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background-color: #ffffff;
     line-height: 25px;
     text-decoration-style: none;
-    width: 65%;S
+    width: 100vw;
+    height: 100vh;
+}
+
+header { 
+    background: white;
 }
 
 #header {
-    background-color: #ffffff;
     color: #ffffff;
     border-color: #cccccc;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif
-    overflow: auto;
-    width: 100%
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 50px;
     border-bottom: 2px solid #cccccc;
     padding-left: 70px;
-    padding right: 70x;
+    padding-right: 70x;
+    box-sizing: border-box;
 }
 
-#name {
+#name   {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
     font-size: 30px;
     font-weight: bolder;
-    background: #4aaaa5;
     text-align: center;
-    line-height: 90px;;
-    width: 250px;
-    height: 90px;
+    line-height: 30px;
     float: left;
+    background: #4aaaa5;
+    height: 100%;
+    width: 300px;
 }
 
 
 nav    {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777
+    color: #777777;
     height: 28px;
     float: right;
 }
 
 nav a {
     color: #777777;
-    line-height: 20px;
+    line-height: 50px;
     margin-left: 14px;
     display: inline-block;
     border-left: 1px solid;
+    padding-left: 70px;
 }
 
-h1,   {
+h1   {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font weight: bolder;
+    font-weight: bolder;
     color: #4aaaa5;
     margin-bottom: 20px;
     font-size: 30px;
@@ -66,7 +72,7 @@ h1,   {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    font weight: bolder;
+    font-weight: bolder;
     color: #4aaaa5;
     margin-bottom: 20px;
 }
@@ -89,17 +95,59 @@ p {
     padding: 0px;
     margin: 0 auto;
     clear: both;
+    background: white;
+    border: 1px solid gray;
+    margin: 20px auto;
+    padding: 7px;
+    /*  */
+    height: 80%;
+}
+
+.home-container {
+    width: 100%;
+    max-width: 960px;
+    padding: 0px;
+    margin: 0 auto;
+    clear: both;
+    /* background: white; */
+    /* border: 1px solid gray; */
+    margin: 20px auto;
+    padding: 7px;
+    /*  */
+    height: 80%;
+}
+
+.work-container {
+    width: 100%;
+    max-width: 960px;
+    padding: 0px;
+    margin: 0 auto;
+    clear: both;
+    background: white;
+    border: 1px solid gray;
+    margin: 20px auto;
+    padding: 7px;
+    /*  */
+    height: 100%;
+    position: relative;
+    padding: 20px;
 }
 
 .about {
     background: #ffffff;
-    height: ;
+    /* height: ; */
     width: 100%;
     max-width: 680px; 
     border: 1px solid #dddddd;  
     float: left;
     margin: 40px;
     padding: 30px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+
 }
 
 .cat {
@@ -111,22 +159,34 @@ p {
     padding: 30px; 
 }
 
+.main {
+    position: relative;
+}
+
 footer {
     font-size: 12px;
     text-align: center;
     background-color: #666666;
-    color: #ffffff;
+    /* color: #ffffff; */
     border-top: 8px solid #4aaaa5;
     padding: 30px 0;
     clear: both; 
 }
 
+#image {
+    width: 200px;
+    height: auto;
+    float left;
+}
+
 .work {
     width: 270px;
-    overflow: auto;
+    /* overflow: auto; */
     position: relative;
     float: left;
-    margin: 20px 0 25px;
+    margin: 20px;
+    box-sizing: border-box;
+    height: 200px;
 }
 
 .work h3 {
@@ -141,7 +201,6 @@ footer {
     width: 100%;
     line-height: 30px;
     position: absolute;
-    padding: 15px; 
 }
 
 #contact ul {
@@ -157,6 +216,13 @@ input ,
 input,
 textarea   {
     display: block;
-    width: 100%;
+    width: 98%;
+}
+
+#submit {
+    width: 180px;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 10px auto;
 }
 
