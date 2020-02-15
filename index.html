@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Link to CSS-->
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
@@ -11,23 +12,22 @@
 
 <body>
     <header id="header"> 
-        <div class="info"></div>
+        <div class="container">
             <a href="index.html" id="name">Megan Murphy</a>    
             <nav>
-                <ul>
-                    <li><a href="index.html" >Index</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <a href="index.html" >Index</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
     <!---About Me Section: Main-->
     <div id="main" class="container">
-        <section class="main">
+        <section class="about">
         <h1>About Me</h1>
-            <img src="assets/images/cat.jpeg">
+            
+        <img src="assets/images/cat.jpeg" class="cat">
         
         <p>
         Whoa, hey there I'm Megan, Full Stack Web Dev student extrodinare! Currently, I am 
@@ -35,7 +35,7 @@
         weekends. Clearly, this is far from ideal and one of the main reasons why I started studying
         Web Development! 
         </p>
-
+        <br>
         <p>
         Believe it or not, but I used to be an archaeologist and I hope to eventually apply my new 
         found web development skills with historical preservation groups to create and maintain 
@@ -43,26 +43,13 @@
         experiences! In the rare instance that I have some free time, you can find
         me playing Dungeons & Dragons, Magic the Gathering, or escaping to Middle Earth! 
         </p>
+        </section>
     </div>
-    </section>
 
-    <!--Connect with Me: Social Media-->
-    <section class="socialmedia">
-    <div id="connect">
-        <h2>Connect with Me</h2>
-            <img src="assets/images/iconfinder_linkedin_circle_color_107178 (1).png"
-            class="media" alt="LinkedIn">
-            <img src="assets/images/iconfinder_mark-github_298822.png" 
-            class="media" alt="Github">
-            <img src="assets/images/iconfinder_Instagram_Color_1435162.png"
-            class="media" alt="Instagram">
-        </div>
-    </section>
 
 <footer>
     <div class="container">
         Copyright &copy;
-
     </div>    
 </footer>
 

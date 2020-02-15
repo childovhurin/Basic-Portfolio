@@ -1,48 +1,162 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+    background-image: url("light_grey.png");
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    line-height: 25px;
+    text-decoration-style: none;
+    width: 65%;S
 }
-ol, ul {
-	list-style: none;
+
+#header {
+    background-color: #ffffff;
+    color: #ffffff;
+    border-color: #cccccc;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    overflow: auto;
+    width: 100%
+    border-bottom: 2px solid #cccccc;
+    padding-left: 70px;
+    padding right: 70x;
 }
-blockquote, q {
-	quotes: none;
+
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #4aaaa5;
+    text-align: center;
+    line-height: 90px;;
+    width: 250px;
+    height: 90px;
+    float: left;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+
+nav    {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+    height: 28px;
+    float: right;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+nav a {
+    color: #777777;
+    line-height: 20px;
+    margin-left: 14px;
+    display: inline-block;
+    border-left: 1px solid;
 }
+
+h1,   {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font weight: bolder;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 50px;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font weight: bolder;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+}
+
+h3 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font weight: bolder;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    padding: 0px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.about {
+    background: #ffffff;
+    height: ;
+    width: 100%;
+    max-width: 680px; 
+    border: 1px solid #dddddd;  
+    float: left;
+    margin: 40px;
+    padding: 30px;
+}
+
+.cat {
+    max-width: 680px;
+    border: 1px solid #dddddd;  
+    float: left;
+    margin-top: 10px; 
+    margin-right: 25px;
+    padding: 30px; 
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+    padding: 30px 0;
+    clear: both; 
+}
+
+.work {
+    width: 270px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
+
+.work h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;    
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom: 0;
+    bottom: 20px;
+    width: 100%;
+    line-height: 30px;
+    position: absolute;
+    padding: 15px; 
+}
+
+#contact ul {
+    margin-bottom: 20px;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+label,
+input ,
+input,
+textarea   {
+    display: block;
+    width: 100%;
+}
+
